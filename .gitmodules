@@ -1,0 +1,6 @@
+[submodule "src/f1tenth_gym_ros"]
+	path = src/f1tenth_gym_ros
+	url = https://github.com/f1tenth/f1tenth_gym_ros.git
+[submodule "src/f1tenth_ws_waterloo"]
+	path = src/f1tenth_ws_waterloo
+	url = https://github.com/fjahncke/f1tenth_ws_waterloo.git
