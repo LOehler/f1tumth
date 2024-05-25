@@ -1,7 +1,7 @@
 ego_stanley_avoidance:
   ros__parameters:
-    waypoints_path: "/sim_ws/src/stanley_avoidance/racelines/silverstone.csv"
-    waypoints_path_2nd: "/sim_ws/src/stanley_avoidance/racelines/silverstone.csv"
+    waypoints_path: "/home/go86bel/f1tumth/src/f1tenth_ws_waterloo/src/stanley_avoidance/racelines/silverstone.csv"
+    waypoints_path_2nd: "/home/go86bel/f1tumth/src/f1tenth_ws_waterloo/src/stanley_avoidance/racelines/silverstone.csv"
     scan_topic: "/scan"
     odom_topic: "/ego_racecar/odom"
     drive_topic: "/drive"
@@ -28,8 +28,8 @@ ego_stanley_avoidance:
 
 opp_stanley_avoidance:
   ros__parameters:
-    waypoints_path: "/sim_ws/src/stanley_avoidance/racelines/silverstone.csv"
-    waypoints_path_2nd: "/sim_ws/src/stanley_avoidance/racelines/silverstone.csv"
+    waypoints_path: "/home/go86bel/f1tumth/src/f1tenth_ws_waterloo/src/stanley_avoidance/racelines/silverstone.csv"
+    waypoints_path_2nd: "/home/go86bel/f1tumth/src/f1tenth_ws_waterloo/src/stanley_avoidance/racelines/silverstone.csv"
     scan_topic: "/opp_scan"
     odom_topic: "/opp_racecar/odom"
     drive_topic: "/opp_drive"
@@ -51,4 +51,4 @@ opp_stanley_avoidance:
 
 waypoint_visualizer_node:
   ros__parameters:
-    waypoints_path: "/sim_ws/src/stanley_avoidance/racelines/silverstone.csv"
+    waypoints_path: "/home/go86bel/f1tumth/src/f1tenth_ws_waterloo/src/stanley_avoidance/racelines/silverstone.csv"
