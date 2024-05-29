@@ -1,6 +1,6 @@
 pure_pursuit_node:
   ros__parameters:
-    waypoints_path: "/sim_ws/src/pure_pursuit/racelines/e7_floor5.csv" 
+    waypoints_path: "/home/go86bel/f1tumth/src/f1tenth_ws_waterloo/src/pure_pursuit/racelines/traj_race_cl-2024-05-29 12:17:03.515967.csv" 
     odom_topic: "/ego_racecar/odom"
     car_refFrame: "ego_racecar/base_link"
     global_refFrame: "map"
@@ -16,4 +16,4 @@ pure_pursuit_node:
 
 waypoint_visualiser_node:
   ros__parameters:
-    waypoints_path: "/sim_ws/src/pure_pursuit/racelines/e7_floor5.csv" 
+    waypoints_path: "/home/go86bel/f1tumth/src/f1tenth_ws_waterloo/src/pure_pursuit/racelines/traj_race_cl-2024-05-29 12:17:03.515967.csv" 
