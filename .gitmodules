@@ -1,0 +1,3 @@
+[submodule "src/f1tenth_ros"]
+	path = src/f1tenth_ros
+	url = https://github.com/tum-phoenix/f1tenth_ros.git
